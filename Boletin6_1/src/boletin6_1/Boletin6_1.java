@@ -1,5 +1,7 @@
 package boletin6_1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author jmartinezpineiro
@@ -7,12 +9,13 @@ package boletin6_1;
 public class Boletin6_1 {
 
     /**
-     * @param args the command line arguments
+     * Programa que indica si un numero es positivo
      */
     public static void main(String[] args) {
         
-
-
+        NumeroPositivo num1= new NumeroPositivo();
+        num1.numeroPositivo();
+        
 
     }
 
