@@ -19,10 +19,10 @@ public class Almacen {
         if (ventas>1000){
        JOptionPane.showMessageDialog(null, "primera necesidad");
         }
-        else if(ventas > 500&& ventas <=500){
+        else if(ventas >=500){
        JOptionPane.showMessageDialog(null, "alto");
         }
-         else if(ventas > 100&& ventas <=500){
+         else if(ventas >=100){
         JOptionPane.showMessageDialog(null, "medio");
         }
          else {
