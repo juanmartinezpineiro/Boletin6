@@ -18,7 +18,7 @@ public class Boletin6_7 {
      */
     public static void main(String[] args) {
       int opcion;
-      opcion = Integer.parseInt(JOptionPane.showInputDialog("Eliga la opcion 1(cuadrado) 2(triangulo) 3(circulo) :"));
+      opcion = Integer.parseInt(JOptionPane.showInputDialog("Eliga la opcion \n1(cuadrado) \n2(triangulo) \n3(circulo) :"));
       switch(opcion){
           case 1: CalculaSuperficies lado = new CalculaSuperficies();
                   lado.CalcularCuadrado();
